@@ -1,7 +1,7 @@
 ![Hello](hello.svg)
 
 # 💫 About Me:
-🔭 Hi, I am Sena<br>🪴 Currently I'm working on my own company<br>☕️ It is a software house company<br>🍎 I am passionate about Swift - SwiftUI and UIKit<br>🧑🏻‍💻 Feel free to reach me by hidayat@moyahexagon.com
+🔭 Hi, I am Sena<br>🪴 Currently I'm working on my own company<br>☕️ It is a software house company<br>🍎 I am passionate about Swift - SwiftUI and UIKit<br>
 
 
 ## 🌐 Socials:
