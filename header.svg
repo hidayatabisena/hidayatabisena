@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 250">
+  <!-- Background -->
+  <rect width="500" height="250" fill="#2D3748" />
+  
+  <!-- Rain drops -->
+  <g>
+    <!-- Rain animation -->
+    <animate id="rainAnim" attributeName="opacity" from="0" to="1" dur="0.1s" begin="0s" fill="freeze" />
+    
+    <!-- Rain drops with staggered animation -->
+    <g opacity="0.7">
+      <animate attributeName="transform" attributeType="XML" type="translate" 
+        from="0 -50" to="0 300"
+        dur="1.2s" repeatCount="indefinite" />
+      
+      <!-- Multiple rain drops -->
+      <line x1="50" y1="0" x2="45" y2="10" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="90" y1="30" x2="85" y2="40" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="150" y1="10" x2="145" y2="20" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="180" y1="15" x2="175" y2="25" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="220" y1="0" x2="215" y2="10" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="260" y1="20" x2="255" y2="30" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="300" y1="10" x2="295" y2="20" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="330" y1="5" x2="325" y2="15" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="370" y1="25" x2="365" y2="35" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="410" y1="15" x2="405" y2="25" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="450" y1="5" x2="445" y2="15" stroke="#A0AEC0" stroke-width="1.5" />
+    </g>
+    
+    <g opacity="0.7">
+      <animate attributeName="transform" attributeType="XML" type="translate" 
+        from="0 -50" to="0 300"
+        begin="0.3s" dur="1.5s" repeatCount="indefinite" />
+      
+      <line x1="70" y1="10" x2="65" y2="20" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="120" y1="20" x2="115" y2="30" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="170" y1="0" x2="165" y2="10" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="240" y1="25" x2="235" y2="35" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="290" y1="5" x2="285" y2="15" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="350" y1="15" x2="345" y2="25" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="390" y1="25" x2="385" y2="35" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="430" y1="10" x2="425" y2="20" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="470" y1="20" x2="465" y2="30" stroke="#A0AEC0" stroke-width="1.5" />
+    </g>
+    
+    <g opacity="0.7">
+      <animate attributeName="transform" attributeType="XML" type="translate" 
+        from="0 -50" to="0 300"
+        begin="0.6s" dur="1.3s" repeatCount="indefinite" />
+      
+      <line x1="30" y1="20" x2="25" y2="30" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="80" y1="5" x2="75" y2="15" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="130" y1="15" x2="125" y2="25" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="200" y1="0" x2="195" y2="10" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="250" y1="10" x2="245" y2="20" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="310" y1="25" x2="305" y2="35" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="360" y1="0" x2="355" y2="10" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="400" y1="5" x2="395" y2="15" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="440" y1="20" x2="435" y2="30" stroke="#A0AEC0" stroke-width="1.5" />
+      <line x1="480" y1="10" x2="475" y2="20" stroke="#A0AEC0" stroke-width="1.5" />
+    </g>
+  </g>
+  
+  <!-- Anime character with yellow umbrella -->
+  <g transform="translate(250, 150)">
+    <!-- Small bounce animation -->
+    <animate attributeName="transform" attributeType="XML" type="translate" 
+      values="250,150; 250,145; 250,150"
+      keyTimes="0; 0.5; 1"
+      dur="2s" repeatCount="indefinite" />
+      
+    <!-- Yellow umbrella -->
+    <path d="M0,-50 C-40,-30 -40,0 0,0 C40,0 40,-30 0,-50Z" fill="#FFD700" stroke="#333333" stroke-width="1.5" />
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#333333" stroke-width="2" />
+    
+    <!-- Anime character (simplified) -->
+    <circle cx="0" cy="50" r="12" fill="#FFE0BD" /> <!-- Head -->
+    <path d="M-8,50 C-7,47 7,47 8,50" stroke="#333333" stroke-width="1" fill="none" /> <!-- Smile -->
+    <line x1="-5" y1="46" x2="-5" y2="48" stroke="#333333" stroke-width="1" /> <!-- Left eye -->
+    <line x1="5" y1="46" x2="5" y2="48" stroke="#333333" stroke-width="1" /> <!-- Right eye -->
+    
+    <!-- Hair -->
+    <path d="M0,38 C-15,40 -12,50 -12,55 C-5,52 0,52 0,52" fill="#333333" />
+    <path d="M0,38 C15,40 12,50 12,55 C5,52 0,52 0,52" fill="#333333" />
+    
+    <!-- Body -->
+    <path d="M0,62 L-10,90 L10,90 Z" fill="#6C63FF" /> <!-- Dress/top -->
+    <line x1="0" y1="62" x2="-15" y2="75" stroke="#6C63FF" stroke-width="3" /> <!-- Left arm -->
+    <line x1="0" y1="62" x2="0" y2="85" stroke="#FFE0BD" stroke-width="1" /> <!-- Right arm holding umbrella -->
+    <line x1="-7" y1="90" x2="-7" y2="100" stroke="#1A202C" stroke-width="3" /> <!-- Left leg -->
+    <line x1="7" y1="90" x2="7" y2="100" stroke="#1A202C" stroke-width="3" /> <!-- Right leg -->
+  </g>
+  
+  <!-- Puddles -->
+  <ellipse cx="180" cy="230" rx="25" ry="8" fill="#4A5568" opacity="0.6">
+    <animate attributeName="rx" values="25;28;25" dur="2s" repeatCount="indefinite" />
+  </ellipse>
+  
+  <ellipse cx="320" cy="235" rx="30" ry="7" fill="#4A5568" opacity="0.6">
+    <animate attributeName="rx" values="30;33;30" dur="2.5s" repeatCount="indefinite" />
+  </ellipse>
+  
+  <!-- Soft glow effects -->
+  <circle cx="250" cy="140" r="70" fill="url(#yellowGlow)" opacity="0.2" />
+  
+  <!-- Definitions -->
+  <defs>
+    <radialGradient id="yellowGlow" cx="0.5" cy="0.5" r="0.5" fx="0.5" fy="0.5">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.7" />
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+</svg>
