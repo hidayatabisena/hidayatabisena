@@ -42,15 +42,13 @@ let me = Developer()
 - Drawing ✏️
 - Travelling ✈
 
+---
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=[your-username]&color=yellow" alt="Profile views"/>
   <br>
   <em>"The sound of rain needs no translation." — Alan Watts</em>
 </div>
-
----
-[![](https://visitcount.itsvg.in/api?id=hidayatabisena&icon=0&color=1)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
 
